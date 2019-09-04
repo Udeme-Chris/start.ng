@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(248, 231, 215);
+}
+.name{
+    font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    color: #5a2929;
+}
+.text{
+    color: #5a2929;
+    font-size: 1.1em;
+
+}
+.category{
+    color: rgb(228, 50, 6);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    font-style: italic;
+
+}
+
+.contact {
+background-color: #333333;
+color: wheat;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ nav ul li{
+        float: left;
+        padding: 0.5em;
+       font-weight: bold; 
+    }    
