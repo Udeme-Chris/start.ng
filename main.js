@@ -31,6 +31,7 @@
     }
 
     submit.addEventListener("click", (foo) => {
+                foo.preventDefault();
         var errors = [];
         //This is a filter to ensure that the email address is valid
         var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
