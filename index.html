@@ -10,6 +10,8 @@
 </head>
 
 <body>
+    <div class="backdrop"></div>
+
     <div>
         <center>
 
@@ -36,6 +38,9 @@
                             <hr> #16 College Rd. Ibeno. Akwa Ibom State.</li>
                     </ul>
                 </nav>
+                <button id="show-contact-form"
+                    style="border-radius: 40%; height: 3em; color:#5a2929; font-weight:bold; ">Send a
+                    Message...</button>
             </div>
         </center>
         <div style="padding:1.4em;">
@@ -158,8 +163,38 @@
 
 
         </div>
+        <div class="modal">
 
+            <div class="container">
+                <button id="close-modal">X</button>
+
+
+                <form id="contact">
+                    <h3>Contact Udeme Chris</h3>
+                    <h4>Contact me for more information</h4>
+                    <section style="text-align:left;width:inherit; background-color:rgb(250, 149, 149); color:maroon">
+                        <p id="show-errors"></p>
+                    </section>
+                    <center>
+                        <input placeholder="Your Full Name" id="name" type="text" tabindex="1" required autofocus />
+                        <input placeholder="Your Email Address" id="email" type="text" tabindex="2" required />
+                        <input placeholder="Title or Subject of Message" id="title" type="text" tabindex="3" required />
+                        <textarea placeholder="Type your message here...." id="message" tabindex="5"
+                            required></textarea>
+
+
+                        <button name="submit" type="submit" id="submit" data-submit="...Sending">Send</button>
+
+                        <!-- <p class="copyright">Designed by <a href="https://github.com/Udeme-Chris" target="_blank"
+                                title="Ud_Chris">Udeme Chris</a></p> -->
+                    </center>
+                </form>
+
+            </div>
+        </div>
     </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
